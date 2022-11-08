@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+header > .header {
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(146, 255, 0, 0.750);
+    width: 100%;
+    position: fixed;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+header > .header > .header-section {
+    display: flex;
+    padding: 2vh;
+}
+
+.header-icon {
+    height: 9vh;
+    transition-duration: 250ms;
+}
+
+#header-searchbar {
+    height: 5vh;
+    width: 7.25vw;
+    border-width: 0;
+    border-top-left-radius: 1.5vh;
+    border-bottom-left-radius: 1.5vh;
+    font-size: 4vh;
+}
+
+#header-searchbutton {
+    height: 5vh;
+    width: 2.5vw;
+    border-width: 0;
+    border-top-right-radius: 1.5vh;
+    border-bottom-right-radius: 1.5vh;
+    font-size: 2.5vh;
+}
+
+.header-link {
+    height: 5vh;
+    transition-duration: 250ms;
+}
+
+.header-link:hover {
+    transform: scale(125%);
+}
+
+.header-section-center {
+    align-items: center;
+    justify-content: center;   
+}
+
+#header-logo-section {
+    flex-grow: 1;
+}
+
+#header-title-section {
+    flex-grow: 1;
+}
+
+#header-search-section,
+#header-link-section {
+    flex-basis: 12.5vw;
+}
