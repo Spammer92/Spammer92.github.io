@@ -1,5 +1,5 @@
 function openGithub() {
-    window.open("https:github.com/Spammer92");
+    window.open("https://github.com/Spammer92");
 }
 
 function sizeUp(id) {
