@@ -1,0 +1,46 @@
+:root {
+    --bg: #d9fff4;
+    --bg-flipped: #00ff22;
+    --size: 40px; 
+}
+
+table {
+    border: 3px solid black;
+    border-radius: 2.5%;
+}
+
+table, tbody th, td {
+    margin: 0;
+    padding: 0;
+}
+  
+.field {
+    background-color: var(--bg);
+    width: var(--size);
+    height: var(--size);
+
+    border-radius: 10%;
+}
+
+.flipped{
+    background-color: var(--bg-flipped);
+    width: var(--size);
+    height: var(--size);
+
+    border-radius: 10%;
+}
+
+.field:hover {
+    background-color: lightblue;
+}
+
+.configButton {
+    height: 4vh;
+    width: 20vw;
+    margin-top: 1vh;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
