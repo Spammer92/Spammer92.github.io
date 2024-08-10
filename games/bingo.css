@@ -1,7 +1,6 @@
 :root {
     --bg: #d9fff4;
     --bg-flipped: #00ff22;
-    --size: 40px; 
 }
 
 table {
@@ -16,16 +15,16 @@ table, tbody th, td {
   
 .field {
     background-color: var(--bg);
-    width: var(--size);
-    height: var(--size);
+    width: 16vmin;
+    height: 16vmin;
 
     border-radius: 10%;
+
+    font-size: 3vmin;
 }
 
 .flipped{
     background-color: var(--bg-flipped);
-    width: var(--size);
-    height: var(--size);
 
     border-radius: 10%;
 }
