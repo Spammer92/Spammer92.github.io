@@ -9,12 +9,8 @@
     <title>Bingo</title>
 
     <script src="script.js"></script>
-
-    <script>
-        setFieldSize();
-    </script>
 </head>
-<body onresize="setFieldSize()">
+<body>
     <div class="center">
         <div>
             <table>
@@ -104,8 +100,10 @@
                     </td>
                 </tr>
             </table>
-            <button id="edit" class="configButton" onclick="toggleEdit()">Edit</button>
-            <button class="configButton" onclick="reset()">Reset</button>
+            <div style="display: flex; justify-content: space-around;">
+                <button id="edit" class="configButton" onclick="toggleEdit()">Edit</button>
+                <button class="configButton" onclick="reset()">Reset</button>
+            </div>
         </div>
     </div>
     
